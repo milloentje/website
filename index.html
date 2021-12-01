@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The most talented person alive collection</title>
+	<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
+</head>
+<body>
+<div class="header-div">
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header logo-div bounceInLeft wow" data-wow-duration="2s">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" >The most talented person alive collection</a>
+    </div>
+    <div class="collapse navbar-collapse top-right-menu-ul bounceInRight wow" id="bs-example-navbar-collapse-1" data-wow-duration="4s">
+      <ul class="nav navbar-nav navbar-right">
+        <li><button style="display: block;" id="btn-login">MetaMask connect</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</div>
+<div class="container" id="features">
+	<table id="countdownContainer" class="countdownContainer">
+		<tbody>
+			<tr class="info">
+				<td colspan="4" style="font-family:Alfa Slab One, sans-serif;">minting countdown</td>
+			</tr>
+			<tr class="info">
+				<td id="days">41</td>
+				<td id="hours">10</td>
+				<td id="minutes">09</td>
+				<td id="seconds">43</td>
+			</tr>
+			<tr>
+				<td>Days</td>
+				<td>Hours</td>
+				<td>Minutes</td>
+				<td>Seconds</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="mintInfoContainer">
+		<table id='mintingInfo' class="mintingInfoBox">
+			<tbody>
+				<tr class="supply">
+					<td style="font-family:Alfa Slab One, sans-serif;font-size: 50px;"><span id="totalSupply"></span>/10</td>
+				</tr>
+				<tr class="beFast">
+					<td style="font-family:Alfa Slab One, sans-serif;font-size: 20px;"><span id="message"></span></td>
+				</tr>
+				<tr class="cost">
+					<td id="cost" style="font-family:Alfa Slab One, sans-serif;font-size: 20px;display: block;">It costs <span id="price"></span> ether (excluding gas fees) to mint an NFT of tis legendary collection</td>
+				</tr>
+				<tr class="MustBeLoggedIn">
+					<td id="MustBeLoggedIn" style="font-family:Alfa Slab One, sans-serif;font-size: 20px; display:block;">You must be connected with MetaMask before you can mint!</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<button type="button" style="display: none;" id="mint-button"class="btn btn-info">Click here to mint</button>
+	</div>
+
+
+<footer>
+    <div class="container">
+    	<div class="row">
+            <div class="col-sm-12 footer-social">
+            	<a href="https://www.instagram.com/the_most_talented_person_alive/"><img src="images/insta.png" alt="Instagram"></a>           	
+				<a href="https://www.reddit.com/user/TMTPA_NFT_collection"><img src="images/reddit.png" alt="Reddit"></a>
+            </div>
+        </div>
+		<br>
+        <div class="row">
+            <div class="col-sm-12 footer-copyright">
+            	Please make sure you are connected to the right network (Ethereum Mainnet) and the correct address. DISCLAIMER: Once you make the purchase, you cannot undo this action. Using applications on the blockchain is associated with a high degree of technological and/or other risks. The NFT-Token are non-fungible tokens representing ownership of a digital artwork only. Accordingly, no information on this website (or any other documents mentioned therein) is or may be considered to be advice or an invitation to enter into an agreement for any investment purpose. Further, as NFT-Token represent artwork, nothing on this websites qualifies or is intended to be an offering of securities in any jurisdiction nor does it constitute an offer or an invitation to purchase shares, securities or other financial product.
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="js/jquery-main.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/countdown.js"></script>
+
+<script>
+	new WOW().init();
+</script>
+
+</body>
+</html>

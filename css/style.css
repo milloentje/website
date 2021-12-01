@@ -1,0 +1,309 @@
+/*
+	Awesome Responsive Template
+	templatestock.co
+*/
+
+
+/* Typography CSS */
+
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 238, 174);
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+}
+
+/* Header CSS */
+
+.header-div
+{
+	height: 200px;
+    background-image:url(/images/johnny_sins_banner_opensea.png);
+    background-size: cover;
+}
+
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand {
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(13, 22, 107);
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+#btn-login{
+    background-color: rgb(169, 238, 174);
+    border-radius: 5px;
+}
+
+.mintInfoContainer{
+    position: center;
+    margin-top: 0px;
+    margin-left: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.countdownContainer{
+    position: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+.mintInfoContainer{
+    position: center;
+    margin-top: 0px;
+    margin-left: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.mintInfoContainer .beFast td{
+    padding-top: 10px;
+}
+.mintInfoContainer .cost td{
+    padding-top: 10px;
+}
+.mintInfoContainer .supply td{
+    padding-top: 20px;
+}
+
+.mintInfoContainer .MustBeLoggedIn{
+    padding-top: 10px;
+    color: red;
+}
+
+#mint-button{
+    position: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.info {
+    font-size: 60px;
+    color: rgb(13, 22, 107);
+}
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+/* Extra Small devices  */
+@media (max-width: 480px) {
+		.header-div
+	{
+		height: 350px;
+	}
+    footer {
+        text-align: center; 
+        margin-bottom: 10px;       
+    }
+    .logo-div a {
+        color: #fff !important;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .info {
+        font-size: 40px;
+        color: rgb(13, 22, 107);
+    }   
+}
+
+/* Extra Small devices  */
+@media (max-width: 767px) {
+    footer {
+        text-align: center; 
+        margin-bottom: 10px;   
+    }
+    .logo-div a{
+        color: #fff !important;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .info {
+        font-size: 45px;
+        color: rgb(13, 22, 107);
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    footer {
+        text-align: center;  
+        margin-bottom: 10px;  
+    }
+    .footer-social  a {
+        text-align: center;
+        margin-right: 21px;
+    }
+    .logo-div a{
+        color: #fff !important;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .info {
+        font-size: 50px;
+        color: rgb(13, 22, 107);
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    footer {
+        text-align: center; 
+        margin-bottom: 10px;   
+    }
+    .footer-social  a {
+    text-align: center;
+    margin-right: 21px;
+    }
+    .logo-div a{
+    color: #fff !important;
+    font-size: 24px;
+    margin-top: 5px;
+    }
+    .info {
+        font-size: 55px;
+        color: rgb(13, 22, 107);
+    }
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	/* Typography CSS */
+
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+/* Header CSS */
+
+.header-div
+{
+	height: 550px;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    padding-bottom: 40px;
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.footer-social  a
+{
+    text-align: center;
+    margin-right: 21px;
+}
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+}
