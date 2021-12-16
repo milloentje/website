@@ -1,7 +1,7 @@
 var web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 const eventTime = ((new Date("December 12, 2021 20:00:00")).getTime()) /1000;
 const CONTRACT_ADDRESS = "0x9CD4f3D3EE197EF245D1dA5dbeB4Bfe412886Db1";
-document.getElementById("price").textContent = 0.5
+document.getElementById("price").textContent = 0.03
 
 
 async function checkLogin() {
